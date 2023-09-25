@@ -1,0 +1,20 @@
+<h1>チャットボット応答</h1>
+<p><%= @response %></p>
+
+
+<div id="chat-box">
+  <div id="chat-log"></div>
+  <input type="text" id="user-input" placeholder="メッセージを入力">
+  <button onclick="sendMessage()">送信</button>
+</div>
+
+<script>
+  function sendMessage() {
+    const userInput = document.getElementById('user-input').value;
+    // ユーザが入力したメッセージを取得して、チャットログに表示
+    const chatLog = document.getElementById('chat-log');
+    chatLog.innerHTML += `<p><strong>ユーザ:</strong> ${userInput}</p>`;
+    // TODO: チャットボットの応答を取得して表示
+  }
+</script>
+
