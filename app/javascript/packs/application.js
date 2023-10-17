@@ -11,8 +11,9 @@ import "channels"
 import "jquery";
 import "popper.js";
 import "bootstrap";
-import "../stylesheets/application"; 
+import "../stylesheets/application."; 
 import './chat_bot';
+import '../stylesheets/styles.css';
 
 
 Rails.start()
