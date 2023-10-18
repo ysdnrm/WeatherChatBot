@@ -1,13 +1,16 @@
-<h1 class="mt-2">チャットボット応答</h1>
-<p><%= @response %></p>
+<div class="container">
+  <div class="row">
+    <h1 class="mt-2">チャットボット応答</h1>
+      <p><%= @response %></p>
 
 
-<div id="chat-box">
-  <div id="chat-log"></div>
-  <input type="text" id="user-input" placeholder="メッセージを入力">
-  <button onclick="sendMessage()">送信</button>
+    <div id="chat-box">
+      <div id="chat-log"></div>
+      <input type="text" id="user-input" placeholder="メッセージを入力">
+      <button onclick="sendMessage()">送信</button>
+    </div>
+  </div>
 </div>
-
 
 <script>
 function sendMessage() {
