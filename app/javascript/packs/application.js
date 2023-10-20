@@ -16,6 +16,7 @@ import './chat_bot';
 import '../stylesheets/styles.css';
 
 
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
