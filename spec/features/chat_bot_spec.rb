@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe 'ChatBot', type: :feature do
+RSpec.describe 'ChatBot' do
   it 'responds with weather information' do
     visit '/'
     fill_in 'user-input', with: 'Tokyo'
